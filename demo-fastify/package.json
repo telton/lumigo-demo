@@ -1,0 +1,17 @@
+{
+  "name": "demo-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r @lumigo/opentelemetry app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lumigo/opentelemetry": "^1.18.0",
+    "fastify": "^4.13.0"
+  }
+}
